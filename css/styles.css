@@ -1,0 +1,165 @@
+* {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  text-align: left;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+  text-align: center;
+}
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 300;
+}
+
+/* Download-Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-Image */
+.title-image {
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Feature Section */
+#features {
+  padding: 5% 15%;
+  background-color: #ffff;
+  position: relative;
+}
+
+.features-box {
+  text-align: center;
+  padding: 3.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: red;
+}
+
+/* Testimonial -Sections */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  background-color: #ef8172;
+  padding: 5%;
+  text-align: center;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 15px 30px 20px;
+}
+
+/* Pricing-Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+  background-color: darkorchid;
+}
+
+.card-header {
+  background-color: skyblue;
+}
+/* Call to Action  */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+  color: #ffff;
+}
+
+.cta-heading {
+  font-size: 3rem;
+}
+
+#footer {
+  background-color: #ffff;
+  text-align: center;
+  padding: 5% 15% 0% 15%;
+}
+
+.social-icon {
+  justify-content: center;
+  color: black;
+  margin: 10px 8px;
+}
+.social-icon:hover {
+  color: aqua;
+}
+
+@media (max-width: 1100px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
